@@ -22,19 +22,58 @@
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: row;
+
 }
 /*5. exercice-align-content-3 */
 .exercice-align-content-3 .container {
   display: flex;
   flex-wrap: wrap-reverse;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-content: space-between;
+  justify-content: flex-end;
 }
 
 /*6. exercice-flex-grow-1 */
+.exercice-flex-grow-1 .container {
+  display: flex;
+}
+
+.exercice-flex-grow-1 .element-red {
+  flex-grow: 1;
+}
 
 /*7. exercice-flex-grow-2 */
+.exercice-flex-grow-2 .container {
+  flex-direction: column;
+  display: flex;
+}
+
+.exercice-flex-grow-2 .element-green {
+  flex-grow: 1;
+}
 
 /*8. exercice-flex-grow-3 */
+.exercice-flex-grow-3 .container {
+  display: flex;
+  flex-direction: row;
+}
 
+.exercice-flex-grow-3 .element-green,
+.exercice-flex-grow-3 .element-red {
+  flex-grow: 1;
+}
+
+.exercice-flex-grow-3 .element-blue {
+  flex-grow: 2;
+}
 /*9. exercice-all-in */
+.exercice-all-in .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+}
+
+.exercice-all-in .element {
+  flex-grow: 1;
+}
